@@ -105,7 +105,7 @@ namespace SizingHelper
             this.Controls.Add(this.btnSizingTool);
             this.Controls.Add(this.lblTitle);
             this.Name = "Main";
-            this.Text = "W";
+            this.Text = "Sizing Helper";
             this.ResumeLayout(false);
             this.PerformLayout();
 
