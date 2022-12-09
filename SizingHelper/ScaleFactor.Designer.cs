@@ -1,7 +1,7 @@
 ﻿
 namespace SizingHelper
 {
-    partial class Area
+    partial class ScaleFactor
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace SizingHelper
         private void InitializeComponent()
         {
             this.btnGo = new System.Windows.Forms.Button();
-            this.txtArea = new System.Windows.Forms.TextBox();
+            this.txtSF = new System.Windows.Forms.TextBox();
             this.lblArea = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -43,32 +43,32 @@ namespace SizingHelper
             this.btnGo.Text = "Go!";
             this.btnGo.UseVisualStyleBackColor = true;
             // 
-            // txtArea
+            // txtSF
             // 
-            this.txtArea.Location = new System.Drawing.Point(80, 34);
-            this.txtArea.Name = "txtArea";
-            this.txtArea.Size = new System.Drawing.Size(118, 27);
-            this.txtArea.TabIndex = 1;
+            this.txtSF.Location = new System.Drawing.Point(100, 34);
+            this.txtSF.Name = "txtSF";
+            this.txtSF.Size = new System.Drawing.Size(118, 27);
+            this.txtSF.TabIndex = 1;
             // 
             // lblArea
             // 
             this.lblArea.AutoSize = true;
-            this.lblArea.Location = new System.Drawing.Point(31, 37);
+            this.lblArea.Location = new System.Drawing.Point(3, 37);
             this.lblArea.Name = "lblArea";
-            this.lblArea.Size = new System.Drawing.Size(43, 20);
+            this.lblArea.Size = new System.Drawing.Size(91, 20);
             this.lblArea.TabIndex = 2;
-            this.lblArea.Text = "Area:";
+            this.lblArea.Text = "Scale Factor:";
             // 
-            // Area
+            // ScaleFactor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(230, 206);
             this.Controls.Add(this.lblArea);
-            this.Controls.Add(this.txtArea);
+            this.Controls.Add(this.txtSF);
             this.Controls.Add(this.btnGo);
-            this.Name = "Area";
-            this.Text = "Area";
+            this.Name = "ScaleFactor";
+            this.Text = "Scale Factor";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,7 +77,7 @@ namespace SizingHelper
         #endregion
 
         private System.Windows.Forms.Button btnGo;
-        private System.Windows.Forms.TextBox txtArea;
+        private System.Windows.Forms.TextBox txtSF;
         private System.Windows.Forms.Label lblArea;
     }
 }
