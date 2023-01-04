@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SizingHelper.Area" Collapsed="true">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAQCAAgAgACACAAECCAAAAQAEAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SizingHelper.Main" Collapsed="true">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAgAAGCAIAAAAAICAAYACACAAAAAABAAAAAABAAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SizingHelper.PatternImport" Collapsed="true">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACAAAAACAAAACAAAAAAAABAAAAAABAAA=</HashCode>
+      <FileName>PatternImport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SizingHelper.PatternViewer" Collapsed="true">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACAAAAACAAAACAAAEAAAABAAAAAAAAAA=</HashCode>
+      <FileName>PatternViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SizingHelper.Program" Collapsed="true">
+    <Position X="1.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SizingHelper.ScaleFactor" Collapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAAAAAACAAAACAAAAAAAAAAAEAAACAAA=</HashCode>
+      <FileName>ScaleFactor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SizingHelper.Settings" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQACAAABAQAACAAIACIACAAABAAAAAAAIBAAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SizingHelper.SizingToolMain" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAgAAAAAACACAAGAAAABAAABAAAAgAAAAA=</HashCode>
+      <FileName>SizingToolMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
