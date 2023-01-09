@@ -74,6 +74,7 @@ namespace SizingHelper
             this.btnSF.TabIndex = 3;
             this.btnSF.Text = "Scale Factor";
             this.btnSF.UseVisualStyleBackColor = true;
+            this.btnSF.Click += new System.EventHandler(this.btnSF_Click);
             // 
             // btnArea
             // 
@@ -84,6 +85,7 @@ namespace SizingHelper
             this.btnArea.TabIndex = 4;
             this.btnArea.Text = "Area";
             this.btnArea.UseVisualStyleBackColor = true;
+            this.btnArea.Click += new System.EventHandler(this.btnArea_Click);
             // 
             // lblSizingTool
             // 

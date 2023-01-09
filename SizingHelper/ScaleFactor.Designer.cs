@@ -36,37 +36,41 @@ namespace SizingHelper
             // 
             // btnGo
             // 
-            this.btnGo.Location = new System.Drawing.Point(80, 111);
+            this.btnGo.Location = new System.Drawing.Point(70, 83);
+            this.btnGo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGo.Name = "btnGo";
-            this.btnGo.Size = new System.Drawing.Size(82, 55);
+            this.btnGo.Size = new System.Drawing.Size(72, 41);
             this.btnGo.TabIndex = 0;
             this.btnGo.Text = "Go!";
             this.btnGo.UseVisualStyleBackColor = true;
+            this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
             // 
             // txtSF
             // 
-            this.txtSF.Location = new System.Drawing.Point(100, 34);
+            this.txtSF.Location = new System.Drawing.Point(88, 26);
+            this.txtSF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSF.Name = "txtSF";
-            this.txtSF.Size = new System.Drawing.Size(118, 27);
+            this.txtSF.Size = new System.Drawing.Size(104, 23);
             this.txtSF.TabIndex = 1;
             // 
             // lblArea
             // 
             this.lblArea.AutoSize = true;
-            this.lblArea.Location = new System.Drawing.Point(3, 37);
+            this.lblArea.Location = new System.Drawing.Point(3, 28);
             this.lblArea.Name = "lblArea";
-            this.lblArea.Size = new System.Drawing.Size(91, 20);
+            this.lblArea.Size = new System.Drawing.Size(73, 15);
             this.lblArea.TabIndex = 2;
             this.lblArea.Text = "Scale Factor:";
             // 
             // ScaleFactor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(230, 206);
+            this.ClientSize = new System.Drawing.Size(201, 154);
             this.Controls.Add(this.lblArea);
             this.Controls.Add(this.txtSF);
             this.Controls.Add(this.btnGo);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ScaleFactor";
             this.Text = "Scale Factor";
             this.ResumeLayout(false);
