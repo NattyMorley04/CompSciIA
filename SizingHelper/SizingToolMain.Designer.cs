@@ -39,18 +39,16 @@ namespace SizingHelper
             // 
             // txtLocation
             // 
-            this.txtLocation.Location = new System.Drawing.Point(10, 74);
-            this.txtLocation.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtLocation.Location = new System.Drawing.Point(11, 99);
             this.txtLocation.Name = "txtLocation";
-            this.txtLocation.Size = new System.Drawing.Size(177, 23);
+            this.txtLocation.Size = new System.Drawing.Size(202, 27);
             this.txtLocation.TabIndex = 0;
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(192, 74);
-            this.btnBrowse.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBrowse.Location = new System.Drawing.Point(219, 99);
             this.btnBrowse.Name = "btnBrowse";
-            this.btnBrowse.Size = new System.Drawing.Size(93, 20);
+            this.btnBrowse.Size = new System.Drawing.Size(106, 27);
             this.btnBrowse.TabIndex = 1;
             this.btnBrowse.Text = "Browse";
             this.btnBrowse.UseVisualStyleBackColor = true;
@@ -59,18 +57,17 @@ namespace SizingHelper
             // lblSizeby
             // 
             this.lblSizeby.AutoSize = true;
-            this.lblSizeby.Location = new System.Drawing.Point(10, 99);
+            this.lblSizeby.Location = new System.Drawing.Point(11, 132);
             this.lblSizeby.Name = "lblSizeby";
-            this.lblSizeby.Size = new System.Drawing.Size(46, 15);
+            this.lblSizeby.Size = new System.Drawing.Size(59, 20);
             this.lblSizeby.TabIndex = 2;
             this.lblSizeby.Text = "Size by:";
             // 
             // btnSF
             // 
-            this.btnSF.Location = new System.Drawing.Point(10, 116);
-            this.btnSF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSF.Location = new System.Drawing.Point(11, 155);
             this.btnSF.Name = "btnSF";
-            this.btnSF.Size = new System.Drawing.Size(127, 22);
+            this.btnSF.Size = new System.Drawing.Size(145, 29);
             this.btnSF.TabIndex = 3;
             this.btnSF.Text = "Scale Factor";
             this.btnSF.UseVisualStyleBackColor = true;
@@ -78,10 +75,9 @@ namespace SizingHelper
             // 
             // btnArea
             // 
-            this.btnArea.Location = new System.Drawing.Point(158, 116);
-            this.btnArea.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnArea.Location = new System.Drawing.Point(181, 155);
             this.btnArea.Name = "btnArea";
-            this.btnArea.Size = new System.Drawing.Size(127, 22);
+            this.btnArea.Size = new System.Drawing.Size(145, 29);
             this.btnArea.TabIndex = 4;
             this.btnArea.Text = "Area";
             this.btnArea.UseVisualStyleBackColor = true;
@@ -90,24 +86,23 @@ namespace SizingHelper
             // lblSizingTool
             // 
             this.lblSizingTool.AutoSize = true;
-            this.lblSizingTool.Location = new System.Drawing.Point(108, 28);
+            this.lblSizingTool.Location = new System.Drawing.Point(123, 37);
             this.lblSizingTool.Name = "lblSizingTool";
-            this.lblSizingTool.Size = new System.Drawing.Size(63, 15);
+            this.lblSizingTool.Size = new System.Drawing.Size(82, 20);
             this.lblSizingTool.TabIndex = 5;
             this.lblSizingTool.Text = "Sizing Tool";
             // 
             // SizingToolMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(296, 145);
+            this.ClientSize = new System.Drawing.Size(338, 193);
             this.Controls.Add(this.lblSizingTool);
             this.Controls.Add(this.btnArea);
             this.Controls.Add(this.btnSF);
             this.Controls.Add(this.lblSizeby);
             this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.txtLocation);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "SizingToolMain";
             this.Text = "Sizing Tool";
             this.ResumeLayout(false);
